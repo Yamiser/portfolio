@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Portfolio - Charlier Julien</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+   <!--<link rel='stylesheet' href='https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css'><link rel="stylesheet" href="" -->
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="icon.PNG">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">ACCUEIL</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a href="index.html#intro" title="">Accueil</a></li>
+						<li><a href="index.html#about" title="">A propos</a></li>
+						<li><a href="index.html#resume" title="">Parcours</a></li>
+						<li><a href="index.html#portfolio" title="">Projets</a></li>
+						<li><a href="index.html#services" title="">Services</a></li>
+                  <li><a href ="index.html#veille" title ="">Divers</a></li>						
+						<li><a href="index.html#contact" title="">Contact</a></li>					
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="resume" class="grey-section">
+
+    <div class="row section-intro">
+       <div class="col-twelve">
+
+           <h1>RestoWeb</h1><br/>
+
+       </div>   		
+   </div> <!-- /section-intro--> 
+
+   <div class="row resume-timeline">
+
+       <div class="col-twelve resume-header">
+
+       </div> <!-- /resume-header -->
+
+       <div class="col-twelve">
+
+
+               <div class="timeline-block">
+
+                <p>
+                  Ce projet est un site web de critique de restaurant afin de récupérer les avis des consommateurs il a été réalisé afin de montrer comment fonctionne un site web de type MVC, MVC étant l'abréviation de Modèle, Vue et Controleur<br/>
+                  Le modèle représente l'endroit ou toutes les données sont.<br/>
+                  La vue représente la partie visible de l'application donc le design.<br/>
+                  Le controleur représente l'endroit ou les données sont récupérées et traité<br/><br/>
+
+                  Le controleur permet donc de partager des données à afficher par la vue et les données traités par le controleur sont contenus par le modèle.
+
+                  
+                    </p>
+
+               </div> <!-- /timeline-block -->
+
+               <div class="col-twelve resume-header">
+                  <h2>Design du système de filtre</h2>
+                  <img src="images/restoweb.png" style ="padding-bottom:7vh"><br/>
+                <h2>Pourquoi utiliser une architecture de type MVC ?</h2><br/>
+
+                <p>
+                    Le principal avantage d'une structure MVC est son ergonomie en effet séparer les différentes données permet de mieux organiser le code et donc de savoir précisément à quel endroit tel fonction se réalise<br/><br/>
+
+                    Un autre avantage de cette séparation est que l'on peut réutiliser ou faire un évoluer une partie du code par exemple une vue peut être semblable à une autre mais afficher des données différentes et peut être modifié indépendamment du reste, cela permet aussi de mieux réaliser les tests unitaires.<br/><br/>
+
+                    Il existe aussi un avantage si la réalisation du site web se fait en équipe, car cela permet de répartir les tâches entre différents développeurs l'un réalisant la partie controleur, l'autre la vue, et un autre le modèle<br/><br/>
+
+                    En résumé réaliser un site Web sous l'architecture MVC permet de séparer les différentes parties du code afin de le rendre plus ergonomique et permet de mieux contrôler chaquer partie indépendamment du reste, il est donc très utile pour des très grands projets.
+
+                </p>
+     
+            </div> <!-- /resume-header -->
+
+       </div> <!-- /col-twelve -->
+       
+   </div> <!-- /resume-timeline -->
+   </section>
+ 
+   <footer>
+    <div class="row">
+
+        <div class="col-six tab-full pull-right social">
+
+            <ul class="footer-social">        
+			      <li><a href="https://github.com/Yamiser?tab=repositories"><i class="fa fa-github"></i></a></li>
+			      <li><a href="https://www.linkedin.com/in/julien-charlier-0a266a226/"><i class="fa fa-linkedin"></i></a></li>
+          </ul> 
+             
+     </div>
+
+     <div class="col-six tab-full">
+         <div class="copyright">
+               <span>© Copyright Charlier Julien</span>    	
+            </div>		                  
+         </div>
+
+         <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+         </div>
+
+     </div> <!-- /row -->     	
+</footer>  
+
+<div id="preloader"> 
+   <div id="loader"></div>
+</div> 
+
+<!-- Java Script
+================================================== --> 
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
